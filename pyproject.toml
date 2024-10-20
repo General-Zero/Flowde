@@ -15,6 +15,9 @@ description = "Flowde, a simple library made to help you coding"
 readme = "README.md"
 requires-python = ">=3.10"
 keywords = ["flowde", "Flowde", "FLOWDE", "Utilities", "Utility", "utilities", "utility"]
+classifiers = [
+
+]
 
 [project.urls]
 Homepage = "https://github.com/General-Zero/Flowde"
