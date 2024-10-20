@@ -5,13 +5,13 @@ on:
 
 jobs:
   python-build-n-publish:
-    name: Flowde
+    name: Build and Publish Flowde
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4  # Use the latest version
+      - uses: actions/checkout@v4
 
       - name: Initialize Python 3.9
-        uses: actions/setup-python@v4  # Use the latest version
+        uses: actions/setup-python@v4
         with:
           python-version: '3.9'
 
@@ -24,11 +24,12 @@ jobs:
           flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
           flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
 
-      - name: Build binary wheel and a source tarball
-        run: python setup.py sdist bdist_wheel  # Build both source and wheel
+      - name: Build binary wheel and source tarball
+        run: python -m build
+        working-directory: ./
 
       - name: Publish distribution to PyPI
         uses: pypa/gh-action-pypi-publish@master
         with:
-          password: ${{ secrets.pypi_token }}
+          password: ${{ secrets.pypi_password }}
           repository_url: https://upload.pypi.org/legacy/
