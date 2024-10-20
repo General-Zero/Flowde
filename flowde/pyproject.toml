@@ -4,3 +4,13 @@ requires = [
     "wheel",
 ]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "Flowde"
+version = "0.0.1"
+description = "Flowde, a simple library made to help you coding"
+readme = "README.md"
+requires-python = ">=3.12"
+
+[project.urls]
+"Home" = "https://github.com/General-Zero/Flowde"
