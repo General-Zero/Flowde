@@ -30,3 +30,4 @@ Thumbs.db
 # Sensitive files
 secret_keys.py
 config.py
+MANIFEST.in
