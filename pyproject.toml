@@ -7,10 +7,14 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "Flowde"
+authors = [
+{name="General Zero", email="jayraldvax@gmail.com"}
+]
 version = "0.0.1"
 description = "Flowde, a simple library made to help you coding"
 readme = "README.md"
 requires-python = ">=3.10"
+keywords = ["flowde", "Flowde", "FLOWDE", "Utilities", "Utility", "utilities", "utility"]
 
 [project.urls]
-"Home" = "https://github.com/General-Zero/Flowde"
+Homepage = "https://github.com/General-Zero/Flowde"
