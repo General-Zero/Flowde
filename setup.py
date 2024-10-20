@@ -13,7 +13,7 @@ setuptools.setup(
 	    classifiers=[
 	    "Intended Audience :: Developers",
 	    "Programming Language :: Python :: 3.10",
-	    "Programming Language :: Python :: 3.11"
+	    "Programming Language :: Python :: 3.11",
     "License :: OSI Approved :: MIT License",
     "Topic :: Utilities"
 	    ],
