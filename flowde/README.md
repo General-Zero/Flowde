@@ -1,3 +1,3 @@
 # Flowde
 
-Flowde is a simple python library made to simply test this Library
+Flowde is a simple python library made to help you code in python
