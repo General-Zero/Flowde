@@ -25,7 +25,7 @@ classifiers=[
 ]
 scripts = {flowde = "flowde.cli:main"}
 dependencies = ['requests']
-dynamic = ["license", "classifiers", "scripts", "dependencies"]
+dynamic = ["classifiers", "scripts", "dependencies"]
 
 [project.urls]
 Homepage = "https://github.com/General-Zero/Flowde"
