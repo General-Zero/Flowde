@@ -3,7 +3,7 @@ def text(textinput):
 def num(numinput):
     print(int(numinput))
 def ttkn(text):
-    input = text
+    ttkn = text
     amount = text.split()
     ttkn = len(amount)
     print(ttkn)
