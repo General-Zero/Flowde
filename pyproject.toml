@@ -20,7 +20,8 @@ classifiers=[
 "Intended Audience :: Developers",
 "Programming Language :: Python :: 3.10",
 "Programming Language :: Python :: 3.11",
-"License :: OSI Approved :: Apache Software License 2.0",
+"Development Status :: 1 - Planning",
+"License :: OSI Approved :: Apache Software License",
 "Topic :: Utilities",
 ]
 scripts = {flowde = "flowde.cli:main"}
