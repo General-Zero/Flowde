@@ -3,12 +3,12 @@ import setuptools
 
 setuptools.setup(
 	    name='flowde',
-	    version='0.0.2',
+	    version='0.0.3',
 	    description='Flowde is a simple PY library to help you out with coding in python.',
 	    long_description=pathlib.Path('README.md').read_text(),
 	    long_description_content_type='text/markdown',
 	    author='General Zero',
-	    author_email='jayraldvax@gmail.com',
+	    author_email='GeneralZeroCosmo@gmail.com',
 	    license='Apache Software License 2.0',
 	    classifiers=[
 	    "Intended Audience :: Developers",
