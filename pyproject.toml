@@ -20,11 +20,11 @@ classifiers=[
 "Intended Audience :: Developers",
 "Programming Language :: Python :: 3.10",
 "Programming Language :: Python :: 3.11",
-"License :: OSI Approved :: MIT License",
+"License :: OSI Approved :: Apache Software License 2.0",
 "Topic :: Utilities",
 ]
 scripts = {flowde = "flowde.cli:main"}
 dependencies = ['requests']
 
 [project.urls]
-Homepage = "https://github.com/General-Zero/Flowde-Home"
+Documents = "https://github.com/General-Zero/Flowde-Home"
