@@ -10,8 +10,8 @@ name = "flowde"
 authors = [
 {name="General Zero", email="jayraldvax@gmail.com"}
 ]
-version = "0.0.2"
-description = "Flowde, a simple library made to help you coding"
+version = "0.0.3"
+description = "Flowde, a simple library made to help you code, remember parts of the python syntax, and even more without having to write long codes!"
 readme = "README.md"
 license = {text = "Apache Software License 2.0"}
 requires-python = ">=3.10"
@@ -28,4 +28,4 @@ scripts = {flowde = "flowde.cli:main"}
 dependencies = ['requests']
 
 [project.urls]
-Documents = "https://github.com/General-Zero/Flowde-Home"
+Documentation = "https://github.com/General-Zero/Flowde-Home"
