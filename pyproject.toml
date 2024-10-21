@@ -10,10 +10,10 @@ name = "flowde"
 authors = [
 {name="General Zero", email="jayraldvax@gmail.com"}
 ]
-version = "0.0.1"
+version = "0.0.2"
 description = "Flowde, a simple library made to help you coding"
 readme = "README.md"
-license = {text = "APACHE Software License 2.0"}
+license = {text = "Apache Software License 2.0"}
 requires-python = ">=3.10"
 keywords = ["flowde", "Flowde", "FLOWDE", "Utilities", "Utility", "utilities", "utility"]
 classifiers=[
@@ -27,4 +27,4 @@ scripts = {flowde = "flowde.cli:main"}
 dependencies = ['requests']
 
 [project.urls]
-Homepage = "https://github.com/General-Zero/Flowde"
+Homepage = "https://github.com/General-Zero/Flowde-Home"
