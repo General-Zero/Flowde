@@ -2,7 +2,8 @@ def text(textinput):
     print(textinput)
 def num(numinput):
     print(int(numinput))
-def radnum(value):
-    specifynum = input('Specify your value')
-    if value > specifynum:
-        print(value == specifynum)
+def ttkn(text):
+    input = text
+    amount = text.split()
+    ttkn = len(amount)
+    print(ttkn)
