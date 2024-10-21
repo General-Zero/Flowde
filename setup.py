@@ -14,8 +14,9 @@ setuptools.setup(
 	    "Intended Audience :: Developers",
 	    "Programming Language :: Python :: 3.10",
 	    "Programming Language :: Python :: 3.11",
-            "License :: OSI Approved :: Apache Software License 2.0",
-            "Topic :: Utilities"
+	    "Development Status :: 3 - Alpha",
+            "License :: OSI Approved :: Apache Software License",
+            "Topic :: Utilities",
 	    ],
 	    python_requires='>=3.10',
 	    install_requires=['requests'],
