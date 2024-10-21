@@ -1,1 +1,1 @@
-from .func import text, num
+from .func import text, num, radnum
