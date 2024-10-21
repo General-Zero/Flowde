@@ -6,14 +6,14 @@ requires = [
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "Flowde"
+name = "flowde"
 authors = [
 {name="General Zero", email="jayraldvax@gmail.com"}
 ]
 version = "0.0.1"
 description = "Flowde, a simple library made to help you coding"
 readme = "README.md"
-license = {text = "MIT License"}
+license = {text = "APACHE Software License 2.0"}
 requires-python = ">=3.10"
 keywords = ["flowde", "Flowde", "FLOWDE", "Utilities", "Utility", "utilities", "utility"]
 classifiers=[
@@ -21,7 +21,7 @@ classifiers=[
 "Programming Language :: Python :: 3.10",
 "Programming Language :: Python :: 3.11",
 "License :: OSI Approved :: MIT License",
-"Topic :: Utilities"
+"Topic :: Utilities",
 ]
 scripts = {flowde = "flowde.cli:main"}
 dependencies = ['requests']
