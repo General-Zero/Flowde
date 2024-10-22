@@ -1,3 +1,4 @@
+from colorama import Fore, Style, init
 def text(textinput):
     print(textinput)
 def num(numinput):
