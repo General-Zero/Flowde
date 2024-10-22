@@ -19,7 +19,7 @@ setuptools.setup(
             "Topic :: Utilities",
 	    ],
 	    python_requires='>=3.10',
-	    install_requires=['requests'],
+	    install_requires=['requests', 'colorama'],
 	    packages=setuptools.find_packages(),
 	    include_package_data=True,
 	    entry_points={"console_scripts": ["flowde = flowde.cli:main"]},
