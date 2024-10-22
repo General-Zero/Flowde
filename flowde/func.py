@@ -24,4 +24,4 @@ def help(syntax=None):
     	print(Fore.RED + f'The syntax "{syntax}" is undefined or does not exist in Python.')
     	print()
     	print(Fore.YELLOW + f'Perhaps the syntax is missing something?')
-        print(Style.RESET_ALL)
+    print(Style.RESET_ALL)
