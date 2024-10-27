@@ -15,11 +15,7 @@ def flowdehelp(option=None):
     }
     if option in options:
     	print(Fore.CYAN + options[option])
-    elif option == None:
-    	print(Fore.GREEN + f'Visit https://github.com/General-Zero/flowde-documentation for more info about Flowde or Functions.')
-    	print()
-    	print(Fore.GREEN + f'Visit the official python beginner\'s guide for more info: https://www.python.org/about/gettingstarted/')
+    elif option is None:
+      print(Fore.GREEN + 'No options provided, try:\npy3mtp')
     else:
-    	print(Fore.RED + f'The syntax \'{syntax}\' is undefined or does not exist in Python.')
-    	print()
-    	print(Fore.YELLOW + f'Perhaps the syntax is missing something?')
+      print(Fore.RED + f'{opt} option does not exist, perhaps you misspelled it?')
