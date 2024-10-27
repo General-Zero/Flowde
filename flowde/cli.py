@@ -18,9 +18,9 @@ def main():
     else:
         print("Flowde has successfully been installed")
 def version():
-    print("Flowde 0.0.4")
+    print("Flowde 0.0.5")
 def devst():
-    print("Alpha version 0.0.4")
+    print("Alpha version 0.0.5")
 def dependencies():
     print('Dependencies installed for Flowde are: [colorama]')
 def syntax():
