@@ -3,7 +3,7 @@ import setuptools
 
 setuptools.setup(
 	    name='flowde',
-	    version='0.0.4',
+	    version='0.0.5',
 	    description='Flowde is a simple PY library to help you out with coding in python.',
 	    long_description=pathlib.Path('README.md').read_text(),
 	    long_description_content_type='text/markdown',
