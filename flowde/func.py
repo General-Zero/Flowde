@@ -18,4 +18,4 @@ def flowdehelp(option=None):
     elif option is None:
       print(Fore.GREEN + 'No options provided, try:\npy3mtp')
     else:
-      print(Fore.RED + f'{opt} option does not exist, perhaps you misspelled it?')
+      print(Fore.RED + f'{option} option does not exist, perhaps you misspelled it?')
