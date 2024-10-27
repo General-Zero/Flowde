@@ -10,19 +10,21 @@ name = "flowde"
 authors = [
 {name="General Zero", email="GeneralZeroCosmo@gmail.com"}
 ]
-version = "0.0.3"
-description = "Flowde, a simple library made to help you code, remember parts of the python syntax, and even more without having to write long codes!"
+version = "0.0.4"
+description = "Flowde, a simple library made to help you by explaining the syntax for you."
 readme = "README.md"
 license = {text = "Apache Software License 2.0"}
 requires-python = ">=3.10"
 keywords = ["flowde", "Flowde", "FLOWDE", "Utilities", "Utility", "utilities", "utility"]
 classifiers=[
 "Intended Audience :: Developers",
+"Natural Language :: English",
+"Programming Language :: Python :: 3",
 "Programming Language :: Python :: 3.10",
 "Programming Language :: Python :: 3.11",
 "Development Status :: 3 - Alpha",
 "License :: OSI Approved :: Apache Software License",
-"Topic :: Utilities",
+"Topic :: Utilities"
 ]
 scripts = {flowde = "flowde.cli:main"}
 dependencies = ['requests', 'colorama']
