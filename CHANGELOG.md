@@ -1,6 +1,6 @@
 
 # 0.0.4
-Fixed aton of mistakes
+Fixed aton of mistakes, added `--syntax` for syntaxes, fixed version mistake.
 # 0.0.3
 Fixed some mistakes, added ttkn and help functions
 # 0.0.2
