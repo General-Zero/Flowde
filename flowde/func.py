@@ -1,4 +1,5 @@
 from colorama import Fore, Back, init
+import
 init(autoreset=True)
 def text(textinput):
     print(textinput)
