@@ -10,24 +10,24 @@ name = "flowde"
 authors = [
 {name="General Zero", email="GeneralZeroCosmo@gmail.com"}
 ]
-version = "0.0.5"
-description = "Flowde, a simple library made to help you by explaining the syntax for you."
+version = "0.0.6"
+description = "Flowde, a simple library made to help you in utilities"
 readme = "README.md"
 license = {text = "Apache Software License 2.0"}
-requires-python = ">=3.10"
+requires-python = ">=3.8"
 keywords = ["flowde", "Flowde", "FLOWDE", "Utilities", "Utility", "utilities", "utility"]
 classifiers=[
 "Intended Audience :: Developers",
 "Natural Language :: English",
 "Programming Language :: Python :: 3",
-"Programming Language :: Python :: 3.10",
+"Programming Language :: Python :: 3.8",
 "Programming Language :: Python :: 3.11",
 "Development Status :: 3 - Alpha",
 "License :: OSI Approved :: Apache Software License",
 "Topic :: Utilities"
 ]
 scripts = {flowde = "flowde.cli:main"}
-dependencies = ['requests', 'colorama']
+dependencies = ['requests', 'colorama', 'flask',]
 
 [project.urls]
 Documentation = "https://github.com/General-Zero/flowde-documentation"

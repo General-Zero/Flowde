@@ -1,3 +1,5 @@
+# 0.0.6
+Added new two new features potentially useful for you
 # 0.0.5
 Fixed errors, fast paced update.
 # 0.0.4

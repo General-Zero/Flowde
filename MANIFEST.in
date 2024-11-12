@@ -1,4 +1,6 @@
 graft flowde
 include pyproject.toml
 include setup.py
+include LICENSE
+include README.md
 global-exclude *.py[cod]
