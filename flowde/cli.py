@@ -20,4 +20,3 @@ def dependencies():
     print('Dependencies installed for Flowde are: [colorama, requests, flask]')
 def syntax():
     print('The following are Flowde syntax:\nflowde.text(\'text\') • A simple print command\nflowde.num(5 + 5) • A basic calculator\nflowde.ttkn(\'your text\') • Stands for \'Text-Token\', gets the\nnumber of words and turns it into an integer (token)\nflowde.capi(\'https://example.com\', indents=4) • `flowde.capi` stands for call-api or extract websites, the `indents=4`\nmeans how many indents the json dictionary will have\nflowde.h() • Provides some help for Flowde syntax.\n\nMore info will be added in 0.0.7')
-syntax()
