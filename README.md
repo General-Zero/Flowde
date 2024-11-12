@@ -28,4 +28,4 @@ flowde.capi('https://example.com') # calls an API or scrape a website, add `inde
 flowde.tempapi(port=5000, template='time12')
 ```
 ## Url's
-[![Documentation](https://img.shields.io/badge/Documentation -Flowde_documents-blue)](https://github.com/General-Zero/flowde-documentation)
+[![Documentation](https://img.shields.io/badge/Documentation-Flowde_documents-blue)](https://github.com/General-Zero/flowde-documentation)
