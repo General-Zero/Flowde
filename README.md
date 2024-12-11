@@ -1,3 +1,4 @@
+# This library is no longer maintained by the owner
 > [![Source code](https://img.shields.io/badge/Source_Code-Flowde-blue)](https://github.com/General-Zero/Flowde) ![PyPI Downloads](https://static.pepy.tech/badge/flowde)
 ----
 Thanks for installing Flowde! I appreciate your support, I'll try my best to improve Flowde.
@@ -28,4 +29,4 @@ flowde.capi('https://example.com') # calls an API or scrape a website, add `inde
 flowde.tempapi(port=5000, template='time12')
 ```
 ## Url's
-[![Documentation](https://img.shields.io/badge/Documentation-Flowde_documents-blue)](https://github.com/General-Zero/flowde-documentation)
+`No longer maintained`
